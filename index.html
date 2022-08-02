@@ -4,28 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images_videos/imagenes/logo.svg">
+    <link rel="stylesheet" href="style-nav.css">
+    <link rel="stylesheet" href="inicio.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>proyecto final</title>
 </head>
 <body>
-    <header>
-        <div id="refresh" class="animation-logo">
-            <svg  width="150" height="90">
-                <rect x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#3F6797"></rect>
-                <rect x="50" y="10" width="50" height="25" rx="5" id="mon2" fill="#B1D5E4"></rect>
-                <polygon points="55 45 ,95 45,115 62,30 62" fill="#3F6797" id="tec1"></polygon>
-                <polygon points="57 48 ,92 48,104 58,43 58" fill="#B1D5E4" id="tec2"></polygon>
-            </svg>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">HISTORIA</a></li>
-                <li><a href="#">JUGUEMOS</a></li>
-                
-            </ul>
-        </nav>
+    <header id="ctn-nav">
+    
     </header>
-   <section class="programacion_historia">
+   <section class="programacion_historia" data-aos="fade-up"   data-aos-duration="2000">
     
       <h1 class="h1_section">PROGRAMACION E HISTORIA </h1>
     
@@ -36,19 +25,40 @@
             <h2>CONTENIDO</h2>
         
         <div class="contenedor-historiaJuego">
-            <div class="contenedor-info">
+            <div class="contenedor-info" data-aos="fade-right" data-aos-duration="2000">
                 <img src="images_videos/imagenes/img1.jpg" class="images">
                 <p>Conozcamos Un poco sobre la historia de la programacion</p>
                 <a href="#" class="enlace_historia-juego">Ir a Historia</a> 
             </div>
-            <div class="contenedor-info">
+            <div class="contenedor-info" data-aos="fade-left" data-aos-duration="2000">
                 <img src="images_videos/imagenes/img2.jpg" class="images">
                 <p>Juguemos un poco sobre la computacion</p>
                 <a href="#" class="enlace_historia-juego">Ir a juego</a>  
             </div>
     </div>
    </section>
-
+   <footer>
+        <div class="first-contenedor-footer">
+            <div class="logo-footer">
+           
+                <svg  width="150" height="80">
+                   <rect x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#3F6797"></rect>
+                   <rect x="50" y="10" width="50" height="25" rx="5" id="mon2" fill="#B1D5E4"></rect>
+                   <polygon points="55 45 ,95 45,115 62,30 62" fill="#3F6797" id="tec1"></polygon>
+                   <polygon points="57 48 ,92 48,104 58,43 58" fill="#B1D5E4" id="tec2"></polygon>
+                </svg>
+            </div>
+            <div class="contenedor-h3-logo">
+                 <h3>PROGRAMACION <br>
+                    E <br>
+                    HISTORIA</h3>  
+            </div>
+        </div>
+        <div class="creador-footer"> 
+           <h4>Sitio con fines educativos- Creado por T. Emanuel Demattei Ortega</h4>
+        </div>
+   </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="codigo.js"></script>    
 </body>
 </html>
